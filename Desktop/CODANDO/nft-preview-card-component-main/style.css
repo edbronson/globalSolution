@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+body{
+    background: #0d1a2d;
+  }
+
+.card__nft{
+    background: #15273f;
+    margin: 20px;
+    border-radius: 20px;
+    
+}
+
+.card__container{
+    text-align: center;
+    
+}
+
+.imagem__principal {
+    width: 80%;
+    margin-top: 35px;
+    border-radius: 20px;
+    
+}
+
+.titulo__card{
+    color: #fff;
+    font-size: 1.456rem;
+    text-align: left;
+    margin-left: 32px;
+    padding-top: 5px;
+}
+
+.subtitulo__card {
+    color: #8dadde;
+    font-size: 1.146rem;
+    text-align: left;
+    margin-left: 32px;
+    margin-right: 30px;
+    padding-top: 15px;
+    font-weight:lighter;
+}
+
+.numbers__card{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    font-size: 1.125rem;
+    
+    
+}
+
+.fa-ethereum{
+    color: #0affff;
+}
+
+.fa-clock{
+    color: #83a4c5;
+}
+
+.dias__card {
+    color: #83a4c5;
+}
+
+.quebraLinha__card {
+    width: 80%;
+    height: 0.2px;
+    border:none;
+    margin: 30px;
+    background-color: #83a4c5;
+    text-align: center;   
+}
+
+.rodape__card{
+    display: flex;
+    justify-content:left;
+    
+}
+
+.jules__card{
+    width: 15%;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    margin: 5px 0 20px 20px;
+}
+
+.creation__card{
+    font-size: 1.146rem;
+    margin: 22px 0 20px 20px;
+    color: #83a4c5;
+}
+
+.creation__card span{
+    color: #fff;
+}
+
+.attribution {
+    color: #fff;
+    margin: 40px 20px 20px 20px;
+    text-align: center;
+}
