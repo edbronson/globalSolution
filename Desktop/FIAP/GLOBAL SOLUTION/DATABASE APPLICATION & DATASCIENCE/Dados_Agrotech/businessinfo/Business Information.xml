@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="A50B1DE1-18BE-A6E5-6552-8BA6EC190A7B">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-01 21:35:17 UTC</createdTime>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

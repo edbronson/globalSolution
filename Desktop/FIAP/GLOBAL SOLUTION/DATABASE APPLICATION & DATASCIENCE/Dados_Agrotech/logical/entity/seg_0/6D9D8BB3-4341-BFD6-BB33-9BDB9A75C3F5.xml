@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6D9D8BB3-4341-BFD6-BB33-9BDB9A75C3F5" name="FORNECEDOR">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-01 22:32:34 UTC</createdTime>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_fornecedor" id="564B729C-F2B4-9928-723C-0212322884D7">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-01 23:51:58 UTC</createdTime>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="7153E60D-6B5E-3A64-90A4-93B65F273E5C">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-01 23:52:54 UTC</createdTime>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="area" id="699F22DC-67B9-03D6-BF86-BF8C1306610F">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-01 23:54:24 UTC</createdTime>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeFornecedor" id="E08F787A-F23A-586D-3503-F1C0433BFB0C">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-01 23:54:35 UTC</createdTime>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="4D2E97A8-3995-623B-59B9-1995676B8E97">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-01 23:55:00 UTC</createdTime>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AC1C691B-1D57-E70C-F491-49C48AAF4AAF" name="CADASTRO">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-01 22:33:38 UTC</createdTime>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cadastro" id="D6DB758D-8F07-F698-3F33-68A416B2C63B">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-01 23:55:28 UTC</createdTime>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="login" id="030CC499-7578-43DE-A98D-1E17DCC26162">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-01 23:55:42 UTC</createdTime>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="senha" id="5F45AB29-CCD2-25F0-5B16-AAE4B4B7E186">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-01 23:55:51 UTC</createdTime>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

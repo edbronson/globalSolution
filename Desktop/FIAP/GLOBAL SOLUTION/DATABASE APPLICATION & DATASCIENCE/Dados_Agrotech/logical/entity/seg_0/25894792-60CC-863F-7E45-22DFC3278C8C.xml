@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="25894792-60CC-863F-7E45-22DFC3278C8C" name="TESTE">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 01:05:53 UTC</createdTime>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_produto" id="A20D0ED9-1D91-71DD-F7D1-32C205F2B21A">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 01:06:04 UTC</createdTime>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_deptPesquisa" id="8F4EDA33-C305-AE15-49E2-8F96B27B9320">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 01:06:21 UTC</createdTime>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
