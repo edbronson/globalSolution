@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="270C5A03-C739-C846-ECAB-B752AB3DBD5F" name="COLABORADOR">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 02:25:53 UTC</createdTime>
+<generatorID>55EE60FF-3D83-BE59-AAA3-5AEEFB0DE203</generatorID>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nomeColaborador" id="F341DB71-6621-D584-40B3-E498816428D1">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 02:25:53 UTC</createdTime>
+<generatorID>D46993F5-200C-6B6B-D96E-97BE64B46655</generatorID>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_colaborador" id="253902C3-C6A4-C7CF-5F0C-EE513EFA1B5A">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 02:25:53 UTC</createdTime>
+<generatorID>A4DD1099-A987-822F-7800-FD1784E621BE</generatorID>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="funcao" id="A6D04732-0B1D-84F4-C862-8B963954BD88">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 02:25:53 UTC</createdTime>
+<generatorID>47DB9BF6-0E7E-ADEA-F97D-F5B7FE78B7CD</generatorID>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEP_RH_id_colaborador" id="F15D5AF6-ED85-4A35-9E8D-A9104E1E0AB3">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 02:25:53 UTC</createdTime>
+<generatorID>466490F9-D018-9C8E-2CD7-0566E888CC0D</generatorID>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99D55909-C30F-9DD4-CF48-5427EA780AC5" referredColumn="654E6DEE-58E7-77D2-0D9F-05698BEA69DC"/>
+</associations>
+</Column>
+<Column name="DEP_PESQUISA_codigoPesquisa" id="41C26775-3170-2C05-7759-D5B6094BC9C1">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 02:25:53 UTC</createdTime>
+<generatorID>1552B278-6F96-71BE-3A7B-47C95F74ACEA</generatorID>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3ED942D9-1561-D416-0417-AE09307A5DAF" referredColumn="2D20AA1A-4308-0C89-6FA7-9EB9E3B64B56"/>
+</associations>
+</Column>
+<Column name="PROJETO_id_projeto" id="310E10CC-6282-EFEE-84B2-0F15E3F7DF27">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 02:25:53 UTC</createdTime>
+<generatorID>4A18AC32-ABB9-3047-4BFD-8C7EC7C8B1F3</generatorID>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4F7B3C3-2F8B-27A6-8F47-40311E44B854" referredColumn="83A76C4A-247B-5BC7-CBB1-F6B9F21FE63D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A751DF37-A1C5-24BD-7871-FAF1E78709B4" name="COLABORADOR_PK">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 02:25:53 UTC</createdTime>
+<generatorID>8F6D320B-A222-866E-496E-5F552FCAE38A</generatorID>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="253902C3-C6A4-C7CF-5F0C-EE513EFA1B5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6049C821-C1FE-8D77-7460-2A63DA4AFEA2" name="COLABORADOR_PROJETO_FK">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 02:25:53 UTC</createdTime>
+<generatorID>443999B0-4574-6286-6EFF-D08D2EE15037</generatorID>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="310E10CC-6282-EFEE-84B2-0F15E3F7DF27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D488A09-BDFE-0B46-990F-1737DE56670D" name="COLABORADOR_DEP_RH_FK">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 02:25:53 UTC</createdTime>
+<generatorID>A87CDAC2-D00C-2422-85FB-84042B8CA094</generatorID>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F15D5AF6-ED85-4A35-9E8D-A9104E1E0AB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D72CF10-6155-FBF3-080A-034A73E12B49" name="COLABORADOR_DEP_PESQUISA_FK">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 02:25:53 UTC</createdTime>
+<generatorID>0E523548-5268-9ECC-EF4C-3178B9844459</generatorID>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41C26775-3170-2C05-7759-D5B6094BC9C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

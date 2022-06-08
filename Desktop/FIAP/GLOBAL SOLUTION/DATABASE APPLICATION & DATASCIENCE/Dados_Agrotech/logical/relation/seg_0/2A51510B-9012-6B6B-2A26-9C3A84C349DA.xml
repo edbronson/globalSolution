@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_15" directorySegmentName="seg_0" id="2A51510B-9012-6B6B-2A26-9C3A84C349DA">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 01:48:13 UTC</createdTime>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<sourcePk>6FD09AA6-E422-7F7F-D9F9-3913C44F5E3A</sourcePk>
+<targetPk>6EE39A37-195B-1573-F307-27BC06AF046A</targetPk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4D76B54A-1FA9-C48C-EB0C-680344E5ABA8</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>6D9D8BB3-4341-BFD6-BB33-9BDB9A75C3F5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

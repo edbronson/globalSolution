@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&family=Josefin+Sans:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background: #fff;
+    
+}
+
+/* começo do header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    background: #f6e0a4;
+    border-bottom: 8px solid #f9b408;
+    box-shadow: 1 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+#menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 35px;
+}
+
+
+
+#menu li {
+    list-style: none;
+    padding: 0 40px;
+    
+}
+
+
+
+#menu li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #106667;
+    transition: all 0.2s;
+    font-family: 'Fira Sans', Verdana, Tahoma, sans-serif;
+    
+}
+
+#menu li a:hover {
+    color: #f9b408;
+}
+
+/* fim do header e começo do banner */
+
+.banner img {
+    width: 100%;
+    
+}
+
+/* fim do banner e começo das três caixas na horizontal */
+
+.base_caixas{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end;
+    width: 1200px;
+    height: 300px;
+    margin: -150px auto;
+}
+
+.base_caixas .caixa{
+    position: relative;
+    width: calc(600px - 30px);
+    height: calc(250px - 30px);
+    background: #899c7e;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.base_caixas .caixa .icone{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #606644;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.base_caixas .caixa:hover .icone{ 
+    position: relative;
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.base_caixas .caixa .icone .fa-solid {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    transition: 0.5s;
+    color: #f9b408;
+}
+
+.base_caixas .caixa:hover .icone .fa-solid{ 
+    font-size: 40px;
+}
+
+.base_caixas .caixa .texto_caixa {
+    position: absolute;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Josefin Sans', Verdana, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+/* fim das três caixas na horizontal e começo da sessão do primeiro celular */
+
+.sessao2 {
+    margin-top: 10px;
+    background-color: #f6e0a4;
+    border-bottom: 10px solid #f9b408;
+    height: 550px;
+}
+
+.sessao2 .celular1 {
+    position: relative;
+    margin-top: 170px;
+}
+
+.sessao2 h1 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 20px 40px 20px;
+    margin-right: 50px;
+    font-size: 50px;
+    color: #106667;
+    text-align: center;
+    margin-top: -850px;
+    font-family: 'Fira Sans', Verdana, Tahoma, sans-serif;
+    
+}
+
+.sessao2 h2 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 25px;
+    color: #606644;
+    margin-right: 50px;
+    font-family: 'Josefin Sans', Verdana, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+
+/* fim da sessão do primeiro celular e começo da sessão de fotos da fazenda */
+
+.sessao3 {
+    background-image: url("../WATERBREAK/img/farm3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.sessao3 .imagem_dupla{
+    padding: 50px 50px 50px 50px;
+}
+
+/* Aqui começa a sessão com imagens do segundo celular */
+
+.sessao4 {
+    background-color: #be7667;
+    height: 700px;
+    margin-top: 15px;
+    
+}
+
+.sessao4 .celular2 {
+    float: right;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.sessao4 h2  {
+    padding-top: 30px;
+    padding-left: 60px;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Fira Sans', Verdana, Tahoma, sans-serif;
+}
+
+.sessao4 .gratuito {
+    background-color: #106667;
+    padding: 30px;
+    color: #f9b408;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding-left: 60px;
+    font-family: 'Fira Sans', Verdana, Tahoma, sans-serif;
+}
+
+.texto_interno {
+    margin-top: 50px;
+    font-family: 'Josefin Sans', Verdana, Tahoma, sans-serif;
+}
+.sessao4 p {
+    padding: 30px;
+    font-size: 20px;
+    color: #f6e0a4;
+    padding-left: 60px;
+    font-family: 'Josefin Sans', Verdana, Tahoma, sans-serif;
+}
+
+.sessao4 button{
+    margin-left: 60px;
+    margin-bottom: 20px;
+    font-family: 'Fira Sans', Verdana, Tahoma, sans-serif;
+}
+
+button {
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    transition: 0.5s;
+    color: #f9b408;
+    width: 250px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.2s;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #106667;
+    border: none;
+    text-decoration: none;
+
+}
+
+button:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background-position: right center;
+}
+
+/* Aqui começa a sessão dos fazendeiros */
+
+.sessao5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    text-align: center;
+}
+
+.sessao5 h3 {
+    color: #106667;
+    font-size: 30px;
+    font-family: 'Fira Sans', Verdana, Tahoma, sans-serif;
+}
+
+.sessao5 p {
+    color: #be7667;
+    font-size: 20px;
+    padding: 10px 60px 0 60px;
+    font-family: 'Josefin Sans', Verdana, Tahoma, sans-serif;
+}
+
+/* Aqui começa o rodapé da página */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f6e0a4;
+    border-top: 8px solid #f9b408;
+    border-bottom: 10px solid #f9b408;
+    padding-bottom: 20px;
+    font-family: 'Josefin Sans', Verdana, Tahoma, sans-serif;
+}
+
+footer nav ul li {
+    color: #106667;
+    font-size: 20px;
+    padding-top: 20px ;
+    padding-bottom: 10px;
+    cursor: pointer; 
+}
+
+footer nav ul li:hover{
+    color: #f9b408;
+    transition: all 0.2s;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer nav h3  {
+    color: #106667;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+footer i {
+    color: #106667;
+    font-size: 40px;
+    margin-left: 20px;
+    transition: all 0.2s;
+}
+
+footer i:hover{
+    color: #f9b408;
+}
+
+footer  p {
+    color: #106667;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+footer img {
+    margin-left: 50px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.copyright {
+    background-color: #f9b408;
+    color: #106667;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Josefin Sans', Verdana, Tahoma, sans-serif;
+}

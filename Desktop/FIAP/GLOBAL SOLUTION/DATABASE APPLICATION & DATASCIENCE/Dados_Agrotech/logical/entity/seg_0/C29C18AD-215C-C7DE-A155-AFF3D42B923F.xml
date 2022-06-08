@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C29C18AD-215C-C7DE-A155-AFF3D42B923F" name="FORNECEDOR_PRODUTO">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 01:45:51 UTC</createdTime>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_fornecedor" id="EDB93DC4-2CCB-66C4-2801-AC6214D8DFE0">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 01:46:08 UTC</createdTime>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produto" id="2CFF9B57-C687-B8CD-8148-83F148C61CEF">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 01:46:54 UTC</createdTime>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_fornecedor1" id="63357D67-F81C-1055-C9CB-9235B6FE9290">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 01:51:20 UTC</createdTime>
+<generatorID>8F17898A-06A8-9DB1-2FA6-D72D8556D684</generatorID>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<referedAttribute>564B729C-F2B4-9928-723C-0212322884D7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produto1" id="4E343C6D-2DCE-3EFA-74F7-42623A8594C4">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 02:02:13 UTC</createdTime>
+<generatorID>2FDCC289-FDA0-45E5-ABF2-BB02B9C90F0D</generatorID>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<referedAttribute>9B0B4CD0-62D4-0F49-DBDB-EC316CD869DA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C1CEBC35-8395-A86B-78D0-E0C31E9D61C2" name="FORNECEDOR_PRODUTO PK">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 01:46:50 UTC</createdTime>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EDB93DC4-2CCB-66C4-2801-AC6214D8DFE0</attributeRef>
+<attributeRef>2CFF9B57-C687-B8CD-8148-83F148C61CEF</attributeRef>
+<attributeRef>63357D67-F81C-1055-C9CB-9235B6FE9290</attributeRef>
+<attributeRef>4E343C6D-2DCE-3EFA-74F7-42623A8594C4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

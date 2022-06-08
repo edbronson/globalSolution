@@ -22,9 +22,11 @@
 <engineerTo>
 <item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="tipoTeste" id="01FB3F03-834E-06AF-916F-BDDC65A3E519">
 <createdBy>Eder Bronson</createdBy>
@@ -33,9 +35,37 @@
 <engineerTo>
 <item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigoPesquisa" id="D9284435-096C-8CB2-2415-288549224275">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 01:19:56 UTC</createdTime>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FA9A39BC-BC65-D8E3-57AA-0F13E0EB0619" name="DEP_PESQUISA PK">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 01:36:49 UTC</createdTime>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D9284435-096C-8CB2-2415-288549224275</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

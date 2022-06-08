@@ -22,8 +22,9 @@
 <engineerTo>
 <item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="funcaoColaborador" id="F46EE2D5-5AA6-8230-9DE4-B75E179056E8">
@@ -33,9 +34,11 @@
 <engineerTo>
 <item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="horasTrabalhadas" id="07B3F53F-7571-BF33-7466-98AF15740AC7">
 <createdBy>Eder Bronson</createdBy>
@@ -44,8 +47,9 @@
 <engineerTo>
 <item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="pagamentos" id="237DAD7C-977A-BC74-A315-EA20F386D37F">
@@ -55,8 +59,9 @@
 <engineerTo>
 <item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="projetoColaborador" id="E45A15AB-C2BF-FD94-850C-5FB7499FCE2A">
@@ -67,8 +72,24 @@
 <item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EAB493CE-5E6C-B58C-106F-74681EA9D749" name="DEP_RH PK">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 01:32:47 UTC</createdTime>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>463C7EAF-BC63-BFEB-E15F-E3CBB12BFF20</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

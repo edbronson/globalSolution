@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3D0A974-A0F8-20B2-DCEE-3468D69F1C23" name="FORNECEDOR_PRODUTO">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 02:25:53 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<ordsAlias>relation_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUTO_id_produto" id="C30DC407-8525-8761-19FB-E691BFE0B793">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 02:25:53 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="254E6086-91B1-BAFB-AA41-AADE063FCDDE" referredColumn="AF44635E-4B2C-E219-3F24-1E7298D6D006"/>
+</associations>
+</Column>
+<Column name="FORNECEDOR_id_fornecedor" id="976093C9-4C0C-3317-C069-EBCA2C69F845">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 02:25:53 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB07BF34-9231-689C-7476-7C6ED56E0ADE" referredColumn="4777FBDD-3A68-AF13-8572-95C7F16A6247"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D9B477F-D070-18EF-CCF9-370C90DA27E3" name="Relation_2_PK">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 02:25:53 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C30DC407-8525-8761-19FB-E691BFE0B793"/>
+<colUsage columnID="976093C9-4C0C-3317-C069-EBCA2C69F845"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="860FCADC-1DD2-0995-CED5-5BCF0B084094" name="Relation_2_PRODUTO_FK">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 02:25:53 UTC</createdTime>
+<generatorID>3635ACE5-DC45-87B3-7FFD-39D6D165573C</generatorID>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C30DC407-8525-8761-19FB-E691BFE0B793"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2020FF49-0DBA-2738-6E33-41047282CDCC" name="Relation_2_FORNECEDOR_FK">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 02:25:53 UTC</createdTime>
+<generatorID>3635ACE5-DC45-87B3-7FFD-39D6D165573C</generatorID>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="976093C9-4C0C-3317-C069-EBCA2C69F845"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

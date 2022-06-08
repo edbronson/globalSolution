@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D76B54A-1FA9-C48C-EB0C-680344E5ABA8" name="FABRICANTE_FORNECEDOR">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 01:44:08 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_fabricante" id="1E8AAD42-0035-4979-6844-AFADC0CB9704">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 01:44:35 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_fornecedor" id="692B8C95-F645-08CE-C059-B2FD394367E5">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 01:44:45 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_fornecedor1" id="C9E37EB1-E297-CD46-3894-78077EC08EF4">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 01:51:06 UTC</createdTime>
+<generatorID>2A51510B-9012-6B6B-2A26-9C3A84C349DA</generatorID>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<referedAttribute>564B729C-F2B4-9928-723C-0212322884D7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_fabricante1" id="57779D96-B75B-1071-3775-D71074408DC3">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 02:01:45 UTC</createdTime>
+<generatorID>94475BF9-314D-44F8-5E05-2A06C520F1B2</generatorID>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<referedAttribute>B2D0A342-D22B-CA7D-54E0-D5C51951EB3E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6FD09AA6-E422-7F7F-D9F9-3913C44F5E3A" name="FABRICANTE_FORNECEDOR PK">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 01:45:08 UTC</createdTime>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>692B8C95-F645-08CE-C059-B2FD394367E5</attributeRef>
+<attributeRef>1E8AAD42-0035-4979-6844-AFADC0CB9704</attributeRef>
+<attributeRef>C9E37EB1-E297-CD46-3894-78077EC08EF4</attributeRef>
+<attributeRef>57779D96-B75B-1071-3775-D71074408DC3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

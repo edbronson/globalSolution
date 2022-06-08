@@ -22,8 +22,9 @@
 <engineerTo>
 <item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="telefone" id="7153E60D-6B5E-3A64-90A4-93B65F273E5C">
@@ -33,9 +34,11 @@
 <engineerTo>
 <item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="area" id="699F22DC-67B9-03D6-BF86-BF8C1306610F">
 <createdBy>Eder Bronson</createdBy>
@@ -44,8 +47,9 @@
 <engineerTo>
 <item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nomeFornecedor" id="E08F787A-F23A-586D-3503-F1C0433BFB0C">
@@ -55,8 +59,9 @@
 <engineerTo>
 <item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="email" id="4D2E97A8-3995-623B-59B9-1995676B8E97">
@@ -66,9 +71,39 @@
 <engineerTo>
 <item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
 </engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cadastro" id="063A186A-A516-97D1-1ADF-626B33EE0E50">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 01:31:56 UTC</createdTime>
+<generatorID>822F53DF-D00B-4CFF-5327-FF89E80CEE5D</generatorID>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<referedAttribute>D6DB758D-8F07-F698-3F33-68A416B2C63B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6EE39A37-195B-1573-F307-27BC06AF046A" name="FORNECEDOR PK">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 01:26:03 UTC</createdTime>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>564B729C-F2B4-9928-723C-0212322884D7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

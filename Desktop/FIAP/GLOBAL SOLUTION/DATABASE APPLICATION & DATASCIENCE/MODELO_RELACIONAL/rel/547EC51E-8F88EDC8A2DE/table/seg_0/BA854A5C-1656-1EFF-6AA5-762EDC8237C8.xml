@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA854A5C-1656-1EFF-6AA5-762EDC8237C8" name="TESTE">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 02:25:53 UTC</createdTime>
+<generatorID>25894792-60CC-863F-7E45-22DFC3278C8C</generatorID>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produto" id="9EEFF963-5EB0-BFF5-6036-2C7F29C9FBCA">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 02:25:53 UTC</createdTime>
+<generatorID>A20D0ED9-1D91-71DD-F7D1-32C205F2B21A</generatorID>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_deptPesquisa" id="8C3A72E9-2F8B-F3FF-7BFC-CD97D99A4942">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 02:25:53 UTC</createdTime>
+<generatorID>8F4EDA33-C305-AE15-49E2-8F96B27B9320</generatorID>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUTO_id_produto" id="65AE9462-22C2-8F58-0E2A-692F21C036D2">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 02:25:53 UTC</createdTime>
+<generatorID>9258B5F3-77B9-0BAA-184A-E764C99C1B0C</generatorID>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="154DEB98-0ABF-0925-E981-87B987CE6E8A" referredColumn="AF44635E-4B2C-E219-3F24-1E7298D6D006"/>
+</associations>
+</Column>
+<Column name="DEP_PESQUISA_codigoPesquisa" id="5FBD621E-A7F7-FD0D-1C33-B25092971C8C">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 02:25:53 UTC</createdTime>
+<generatorID>91564661-D19A-51AF-4F6F-49D92004AD45</generatorID>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF57BE75-D133-8FBD-05BC-F266A18A3D8C" referredColumn="2D20AA1A-4308-0C89-6FA7-9EB9E3B64B56"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F03435DF-97ED-47F5-24E2-E7EEA92CB493" name="TESTE_PK">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 02:25:53 UTC</createdTime>
+<generatorID>8CD36663-6BFD-6F4F-1F46-5BB0D214E0A5</generatorID>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EEFF963-5EB0-BFF5-6036-2C7F29C9FBCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44104C49-41A3-220D-6B36-CB76D5E37DB1" name="TESTE_PRODUTO_FK">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 02:25:53 UTC</createdTime>
+<generatorID>185C06BF-8573-6CB8-4F9D-3E7FFB7B41C4</generatorID>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65AE9462-22C2-8F58-0E2A-692F21C036D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3F4B7C2-9826-A70D-F19A-2EB44D6D3DC5" name="TESTE_DEP_PESQUISA_FK">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 02:25:53 UTC</createdTime>
+<generatorID>99D71088-B699-8D38-D1E5-DDCDC12EE56A</generatorID>
+<ownerDesignName>MODELO_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FBD621E-A7F7-FD0D-1C33-B25092971C8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -22,8 +22,9 @@
 <engineerTo>
 <item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_deptPesquisa" id="8F4EDA33-C305-AE15-49E2-8F96B27B9320">
@@ -33,9 +34,52 @@
 <engineerTo>
 <item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produto1" id="9258B5F3-77B9-0BAA-184A-E764C99C1B0C">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 01:27:17 UTC</createdTime>
+<generatorID>185C06BF-8573-6CB8-4F9D-3E7FFB7B41C4</generatorID>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<referedAttribute>9B0B4CD0-62D4-0F49-DBDB-EC316CD869DA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigoPesquisa" id="91564661-D19A-51AF-4F6F-49D92004AD45">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 01:36:50 UTC</createdTime>
+<generatorID>99D71088-B699-8D38-D1E5-DDCDC12EE56A</generatorID>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<referedAttribute>D9284435-096C-8CB2-2415-288549224275</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8CD36663-6BFD-6F4F-1F46-5BB0D214E0A5" name="TESTE PK">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 01:34:44 UTC</createdTime>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A20D0ED9-1D91-71DD-F7D1-32C205F2B21A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -22,8 +22,9 @@
 <engineerTo>
 <item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="login" id="030CC499-7578-43DE-A98D-1E17DCC26162">
@@ -33,9 +34,11 @@
 <engineerTo>
 <item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="senha" id="5F45AB29-CCD2-25F0-5B16-AAE4B4B7E186">
 <createdBy>Eder Bronson</createdBy>
@@ -44,9 +47,25 @@
 <engineerTo>
 <item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6929A533-58BA-D6BC-6642-2930BFDD4D54" name="CADASTRO PK">
+<createdBy>Eder Bronson</createdBy>
+<createdTime>2022-06-02 01:31:55 UTC</createdTime>
+<ownerDesignName>Dados_Agrotech</ownerDesignName>
+<engineerTo>
+<item key="547EC51E-96E5-196C-6071-8F88EDC8A2DE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D6DB758D-8F07-F698-3F33-68A416B2C63B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
