@@ -350,3 +350,278 @@ footer img {
     padding-bottom: 10px;
     font-family: 'Josefin Sans', Verdana, Tahoma, sans-serif;
 }
+
+/* Aqui a página INSTITUCIONAL */
+
+.container {
+    text-align: center;
+    
+}
+
+article h1 {
+    font-family: 'Fira Sans', Verdana, Tahoma, sans-serif;
+    font-size: 30px;
+    padding: 20px;
+}
+
+article p {
+    font-family: 'Josefin Sans', Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.app {
+    background-color: #106667;
+    color: #fff;
+}
+
+.valores {
+    background-color: #be7667;
+    color: #fff;
+}
+
+/* Aqui a página DOCUMENTAÇÃO */
+
+.identidade {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #be7667;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.identidade h1 {
+    font-family: 'Fira Sans', Verdana, Tahoma, sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    color: #f9b408;
+}
+
+.identidade p {
+    font-family: 'Josefin Sans', Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.paleta h1 {
+    font-family: 'Fira Sans', Verdana, Tahoma, sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.paleta p {
+    font-family: 'Josefin Sans', Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 60px;
+    color: #fff;
+    text-align: center;
+
+}
+
+.cor1 {background-color: #899c7e;}
+.cor2 {background-color: #606644;}
+.cor3 {background-color: #2e664b;}
+.cor4 {background-color: #106667;}
+.cor5 {background-color: #f9b408;}
+.cor6 {background-color: #be7667;}
+.cor7 {background-color: #f6e0a4;}
+
+.fontes {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 10px;
+    
+}
+
+.fontes h1 {
+    font-family: 'Fira Sans', Verdana, Tahoma, sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    
+}
+
+.fontes h3 {
+    font-size: 20px;
+    padding: 20px;
+    color: #106667;
+}
+
+.fontes p {
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 60px;
+}
+
+.fira {font-family: 'Fira Sans', Verdana, Tahoma, sans-serif;}
+.josefin {font-family: 'Josefin Sans', Verdana, Tahoma, sans-serif;}
+
+.persona {
+    background-color: #899c7e;
+}
+
+.persona img {
+    width: 100%;
+}
+
+.persona h1 {
+    text-align: center;
+    font-family: 'Fira Sans', Verdana, Tahoma, sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    color: #f6e0a4;
+}
+
+.persona .bio{
+    font-family: 'Josefin Sans', Verdana, Tahoma, sans-serif;
+    padding: 20px;
+    color: #f6e0a4;
+    text-align: center;
+}
+
+.persona h3 {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.persona h2 {
+    color: #fff;
+    font-weight: 600;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.persona .aspas {
+   background-color: #be7667;
+   text-align: center;
+   color: #fff;
+   font-size: 30px;
+   font-family: 'Josefin Sans', Verdana, Tahoma, sans-serif;
+   padding: 50px;
+}
+
+/* Aqui a página FALE CONOSCO */
+
+#container {
+    width: 900px;
+    margin: auto;
+}
+
+.box {
+    margin: 20px;
+    border: 2px solid #be7667;
+}
+
+.cores, .btn {
+    background-color: #be7667;
+    height: 40px;
+}
+
+.cores h1 {
+    color: #f6e0a4;
+    font-family: 'Fira Sans', Verdana, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 40px;
+    padding-left: 10px;
+    display: inline-block;
+    
+}
+
+.caixas {
+    float: right;
+    width: 150px;
+    cursor: pointer;
+}
+
+.formulario {
+    background-color: #f6e0a4;
+    padding: 30px;
+}
+
+.formulario h1{
+    font-family: 'Josefin Sans', Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.formulario label{
+    display: block;
+    border-top: 1px double #10666700;
+    border-bottom: 1px double #10666700;
+    height: auto;
+    line-height: 24px;
+    
+}
+
+label span {
+    width: 90px;
+    text-align: right;
+    margin-right: 20px;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: bold;
+    color: #106667;
+    vertical-align: top;
+}
+
+label input[type=text], label textarea{
+    border: 1px double #be7667;
+    background-color: #f6e0a4;
+    padding: 10px 10px;
+    width: 400px;
+    color: #606644;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+label textarea {
+    width: 600px;
+}
+
+.btn{
+    text-align: right;
+}
+
+.btn .botao{
+    font-family: 'Fira Sans', Verdana, Tahoma, sans-serif;
+    padding: 3px;
+    margin: 5px;
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+    transition: 0.5s;
+    color: #f9b408;
+    width: 250px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.2s;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #106667;
+    border: none;
+    text-decoration: none;
+}
+
+.btn .botao:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background-position: right center;
+}
+
+.erro {
+    border: 2px dashed red;
+    background-color: tomato;
+    height: 40px;
+    text-align: center;
+    color: red;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 40px;
+    display: none;
+}
