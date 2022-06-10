@@ -57,9 +57,33 @@ header {
 
 /* fim do header e começo do banner */
 
+.banner{
+    position: relative;
+}
+
 .banner img {
     width: 100%;
-    
+}
+
+.principal {
+    position: absolute;
+    font-family: 'Fira Sans', Verdana, Tahoma, sans-serif;
+    z-index: 1;
+    right: 100px;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.banner h1{
+    font-size: 150px;
+    color: #fff;
+ 
+}
+
+.banner h2{
+    font-size: 75px;
+    color: #fff;
 }
 
 /* fim do banner e começo das três caixas na horizontal */
@@ -347,8 +371,24 @@ footer img {
     background-color: #f9b408;
     color: #106667;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     font-family: 'Josefin Sans', Verdana, Tahoma, sans-serif;
+}
+
+/* Aqui começa página de Login */
+
+.cadastro {
+    background-color: #106667;
+    height: 167px;
+    margin-top: 10px;
+}
+
+.cadastro h1 {
+    color: #f6e0a4;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Fira Sans', Verdana, Tahoma, sans-serif;
+    padding: 50px;
 }
 
 /* Aqui a página INSTITUCIONAL */
@@ -515,6 +555,18 @@ article p {
     margin: auto;
 }
 
+#container h1 {
+    color: #be7667;
+    font-family: 'Fira Sans', Verdana, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 40px;
+    padding-left: 200px;
+    padding-top: 30px;
+    text-align: center;
+    display: inline-block;
+}
+
 .box {
     margin: 20px;
     border: 2px solid #be7667;
@@ -525,16 +577,6 @@ article p {
     height: 40px;
 }
 
-.cores h1 {
-    color: #f6e0a4;
-    font-family: 'Fira Sans', Verdana, Tahoma, sans-serif;
-    text-transform: uppercase;
-    font-size: 25px;
-    line-height: 40px;
-    padding-left: 10px;
-    display: inline-block;
-    
-}
 
 .caixas {
     float: right;
@@ -547,9 +589,10 @@ article p {
     padding: 30px;
 }
 
-.formulario h1{
+.formulario h2{
     font-family: 'Josefin Sans', Verdana, Tahoma, sans-serif;
-    font-size: 20px;
+    color: #be7667;
+    font-size: 35px;
 }
 
 .formulario label{
@@ -614,14 +657,16 @@ label textarea {
     background-position: right center;
 }
 
-.erro {
-    border: 2px dashed red;
-    background-color: tomato;
+.msgErro {
+    border: 2px dashed #be7667;
+    background-color: #be7667;
     height: 40px;
     text-align: center;
-    color: red;
+    color: #f9b408;
     font-size: 28px;
     font-weight: bold;
     line-height: 40px;
     display: none;
+    margin-bottom: 20px;
+    border-radius: 50px;
 }
