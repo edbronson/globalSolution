@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Yanone+Kaffeesatz&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-image: url("../img/fundo.png");  
+    background-size: cover;  
+}
+
+.logo {
+    width: 100%;
+    margin: auto;
+    margin-top: 250px;
+    display: block;
+    max-width: 800px;
+}
+
+.botoes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.gradient-button {
+    margin: 10px;
+    padding: 7px 20px 6px 20px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #FFF;
+    box-shadow: 0 0 20px #eee;
+    width: 120px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #ff44e2 0%, #348AC7 51%, #ff44e2 100%);
+    border: 3px solid #2a3e58;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 20px;
+    
+    
+}
+.gradient-button:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 8px 10px 12px;
+    background-position: right center;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+.fa-brands {
+    
+    padding: 15px;
+    margin: 25px;
+    color: #00bae3;
+    font-size: 20px;
+    transition: 1s;
+    
+}
+
+
+.fa-brands:hover{
+    color: #ff44e2;
+    box-shadow: inset 0 0 0 3px #00bae3;
+}
+
+.fa-linkedin-in{
+    background-color: #2a3e58;
+    border-radius: 50%;
+}
+
+.fa-tiktok{
+    background-color: #2a3e58;
+    border-radius: 50%;
+}
+
+.fa-whatsapp{
+    background-color: #2a3e58;
+    border-radius: 50%;
+    font-size: 60px;
+}
+
+/* ------------------------------------------------  RESPONSIVO ------------------------------------------------- */
+

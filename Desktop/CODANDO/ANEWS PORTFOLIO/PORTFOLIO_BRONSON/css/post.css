@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Yanone+Kaffeesatz&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+/* barra lateral fixa */
+
+.titulo img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.tituloh2 {
+    font-size: 50px;
+}
+
+.card   {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.card__noticias {
+    border: 3px solid #2a3e58;
+    border-radius: 10px;
+}
+
+.boximg {
+    border-radius: 6px 6px 0 0;
+}
+
+.card__noticias h2 {
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-top: 10px;
+    font-size: 23px;
+}
+
+.card__noticias p {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 20px auto;
+    font-size: 18px;
+    color: #2a3e58;
+    text-align: center;
+    line-height: 23px;
+}
+
+.posts__btn{
+    margin: -12px 99px;;
+    transition: 0.5s;
+    background-size: 200% auto;  
+    box-shadow: 0 0 20px #eee;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #ff44e2 0%, #348AC7 51%, #ff44e2 100%);
+    border: 3px solid #2a3e58;
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+    
+    
+    
+}
+.posts__btn:hover{
+    background-position: right center;
+}
+
+.card__noticias span {
+    letter-spacing: 2px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    color: #FFF;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.fim_texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .compartilhe {
+   
+    position: relative;
+    text-align: center;
+    color: #2a3e58;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    top: -28px;
+    left: 168px;
+    font-size: 20px;
+    
+  }
+  .compartilhe:before{
+    position: absolute;
+    content: "";
+    bottom: -10px;
+    width: 100%;
+    height: 2px;
+    background-color: #00bae3;
+  }
+  
+  .frame{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: 350px;
+    position: relative;
+     box-shadow:
+     -7px -7px 20px 0px #fff9,
+     -4px -4px 5px 0px #fff9,
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001,
+     inset 0px 0px 0px 0px #fff9,
+     inset 0px 0px 0px 0px #0001,
+     inset 0px 0px 0px 0px #fff9,        inset 0px 0px 0px 0px #0001;
+   transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
+    border-radius: 50px;
+    top: 46px;
+    left: -71px;
+  }
+  
+  .btn__comp{
+    height: 35px;
+    width: 35px;
+    border-radius: 3px;
+    background: #e0e5ec;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    box-shadow:
+     -7px -7px 20px 0px #fff9,
+     -4px -4px 5px 0px #fff9,
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001,
+     inset 0px 0px 0px 0px #fff9,
+     inset 0px 0px 0px 0px #0001,
+     inset 0px 0px 0px 0px #fff9,        inset 0px 0px 0px 0px #0001;
+   transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
+    font-size: 16px;
+    color: rgba(42, 52, 84, 1);
+    text-decoration: none;
+  }
+  .btn__comp:active{
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+  }
+
+  .old__btn-post {
+    font-weight: 800;
+    text-shadow: none;
+    letter-spacing: 1px;
+    border: 2px solid #348AC7;
+    border-radius: 20px;
+    padding: 6px 20px 6px 20px;
+    color:#333;
+    transition: 0.2s ease-in;
+    font-size: 20px;
+}
+
+.old__btn-post:hover {
+    background-color:#348AC7;
+    color:#fff;
+}
+
+  .fa-square-envelope{
+    font-size: 20px;
+  }
+
+  .fa-solid {
+    
+    padding: 15px;
+    color: #00bae3;
+    font-size: 20px;
+    transition: 1s;
+    
+}
+
+.fa-solid:hover{
+    color: #ff44e2;
+    box-shadow: inset 0 0 0 3px #00bae3;
+}
+
+/* ------------------------------------------------  RESPONSIVO ------------------------------------------------- */

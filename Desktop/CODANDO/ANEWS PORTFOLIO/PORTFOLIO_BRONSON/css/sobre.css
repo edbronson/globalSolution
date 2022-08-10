@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-image: url("../img/fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.box-sobre{
+    background-color: #fff;
+    border: 3px solid #2a3e58;
+    color: #2a3e58;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 30px;
+    width: 60%;
+    height: 50%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 2px;
+    margin-top: 150px;
+}
+
+.box-sobre h1 {
+    color: #348AC7;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.box-sobre p {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.fa-hand-point-right {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.fa-hand-fist{
+    padding: 10px;
+}
+
+.fa-certificate{
+    font-size: 7px;
+    padding: 10px;
+    
+}
+
+.finaltexto{
+    color: #ff44e2;
+    font-style: italic;
+}
+
+.img-sobre{
+    position: absolute;
+    margin-left: 1450px;
+    z-index: 1;
+    margin-top: -70px;
+    cursor: pointer; 
+    transition: transform 1s;
+}
+
+.img-sobre:hover {
+    transform:  rotate(0.01turn);
+}
+
+.fa-at{
+    padding: 10px;
+}
+
+.subtitulo-sobre{
+    color: #348AC7;
+    padding: 10px;
+}
+
+/* ------------------------------------------------  RESPONSIVO ------------------------------------------------- */
+
+media

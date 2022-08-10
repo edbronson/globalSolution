@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Yanone+Kaffeesatz&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+.cabecalho {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    background-image: url("../img/fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.image_cabecalho {
+    transition: transform 1s;
+}
+
+.image_cabecalho:hover {
+    transform:  rotate(0.01turn);
+    cursor: pointer;
+}
+
+.botoes_menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+    padding: 5px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-right: 20px;
+}
+
+.botoes_menu li {
+    list-style: none;
+    
+}
+
+.botoes_menu li a {
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+.menu-btn {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #FFF;
+    box-shadow: 0 0 20px #eee;
+    width: 120px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #ff44e2 0%, #348AC7 51%, #ff44e2 100%);
+    border: 3px solid #2a3e58;
+    text-decoration: none;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    
+    
+    
+}
+.menu-btn:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 8px 10px 12px;
+    background-position: right center;
+}
+
+.frontend {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 30px 0 30px;
+    cursor: pointer;
+    flex-wrap: wrap;
+    gap: 16px;
+    
+}
+
+.box_front {
+    border: 3px solid #2a3e58;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.2s ease-in;
+    width: 359px;
+}
+
+.box_front:hover{
+    background-image: url("../img/base.png");
+    
+}
+
+.box_front img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.box_front h3 {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 1px;
+    color: #2a3e58;
+}
+
+.box_front:hover h3{
+    color: #FFF
+    
+}
+
+.btn-front{
+    left: 120px;
+}
+
+.pagination-port {
+    margin: -40px 30px 0 30px;
+    display: flex;
+    justify-content: right;
+    
+}
+
+.old__btn-port {
+    font-weight: 800;
+    text-shadow: none;
+    letter-spacing: 1px;
+    border: 2px solid #348AC7;
+    border-radius: 20px;
+    padding: 7px 20px 6px 20px;
+    transition: 0.2s ease-in;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.old__btn-port:hover {
+    background-color:#348AC7;
+    color:#fff;
+}
+
+.divider__final-port {
+    width: 98%;
+    border-top: 3px solid #2a3e58;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.copyright-port {
+    font: inherit;
+    font-size: 20px;
+    color: #ff44e2;
+    display: flex;
+    justify-content: right;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-right: 30px;
+    margin-top: 10px;
+    
+}
+
+.nome {
+    color:#ff44e2;
+    
+}
+
+.nome:hover {
+    color:#348AC7;
+}
+
+.social-port{
+    display: flex;
+    justify-content: left;
+    margin-top: 30px;
+    margin-left: -10px;
+    padding: 10px;
+}
+
+.fa-brands {
+    
+    padding: 15px;
+    color: #00bae3;
+    font-size: 20px;
+    transition: 1s;
+    
+}
+
+.fa-brands:hover{
+    color: #ff44e2;
+    box-shadow: inset 0 0 0 3px #00bae3;
+}
+
+.fa-linkedin-in{
+    background-color: #2a3e58;
+    border-radius: 50%;
+    margin-left: 54px;
+}
+
+.fa-tiktok{
+    background-color: #2a3e58;
+    border-radius: 50%;
+}
+
+.fa-whatsapp{
+    background-color: #2a3e58;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.tiktok-port {
+    margin: 0 30px 0 30px;
+}
+
+/* ------------------------------------------------  RESPONSIVO ------------------------------------------------- */
+
