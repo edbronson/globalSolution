@@ -15,14 +15,14 @@ body {
     width: 100%;
 }
 
+/* =========================================== CABEÇALHO =========================================== */
+
 #header {
     width: 100%;
     height: 97px;
     background-color: #29313e;
     border-bottom: 4px solid #f7efe6;
-    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.8);
-    
-    
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.8);   
 }
 
 #header span {
@@ -31,10 +31,10 @@ body {
     letter-spacing: -15px;
     padding-left: 30px;
     color: #f7efe6;
+    transition: 0.8s ease-in-out;
 }
 
 #header span:hover {
-
     color: #edda24;
 }
 
@@ -43,17 +43,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: right;
-    margin-top: -45px;
-    
-    
+    margin-top: -45px;  
 }
 
 #navbar li {
     list-style: none;
-    padding: 0 40px;
-    
-    
-    
+    padding: 0 40px;   
 }
 
 #navbar li a {
@@ -65,16 +60,18 @@ body {
     text-align: center;
     padding: 10px 25px;
     border-radius: 25px 25px 0 0;
+    transition: 0.5s ease-in-out; 
 }
 
 #navbar li a:hover {
     background-color: #f7efe6; 
     color: #29313e;
-    padding:10px 25px 19px 25px;
-    
+    padding:10px 25px 19px 25px;   
 }
 
-.header-site {
+/* =========================================== SEÇÃO CAPA =========================================== */
+
+.headerSite {
     position: relative;
     background-image: url(../img/capa2.png);
     background-size: cover;
@@ -85,47 +82,21 @@ body {
     padding-top: 300px;
     padding-bottom: 500px;
 }
-
-
-
-.wave{
-    position: absolute;
-    width: 100%;
-    height: 143px;
-    top: 1080px;
-    bottom: 0;
-    left: 0;
-    background: url(../img/wave.png);
-    animation: animate 10s linear infinite;
-}
-
-@keyframes animate {
-    0%
-    {
-        background-position: 0;
-    }
-
-    100%
-    {
-        background-position: 1360px;
-    }
-}
-
 .container {
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.container-left{
+.containerLeft{
     margin-left: 150px;
     margin-right: 150px;
 }
 
-.header-site h1, .img-site h1 {
+.headerSite h1, .img-site h1 {
     text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
 }
 
-.header-site p, .img-site p {
+.headerSite p, .img-site p {
     text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
 }
 
@@ -148,9 +119,13 @@ p {
     margin: 10px;
 }
 
-.text-capa {
-    text-align: left;
-    
+a {
+    color: #29313e;
+    text-decoration: none;
+}
+
+.textCapa {
+    text-align: left; 
 }
 
 .lead {
@@ -159,68 +134,89 @@ p {
     margin-right: 634px;
 }
 
-
-
 .btn {
     display: inline-block;
-    padding: 6px 30px;
+    padding: 7px 40px;
     margin-bottom: 0px;
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: 1.2rem;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
     cursor: pointer;
     border-radius: 50px;
     border: 1px solid transparent;
-
+    font-family: 'Roboto Slab', serif;
 }
 
-.btn-vermelho {
+.btnYellow {
     background-color: #edda24;
     color: #29313e;
-    font-weight: bold;
-    
+    transition: 500ms linear; 
 }
 
-.btn-vermelho:hover {
+.btnYellow:hover {
     background-color: #25f76e;
     color: #29313e;
-    
+    transform: scale(1.1);
 }
 
-a {
-    color: #337ab7;
-    text-decoration: none;
+.wave{
+    position: absolute;
+    width: 100%;
+    height: 143px;
+    top: 1086px;
+    bottom: 0;
+    left: 0;
+    background: url(../img/wave.png);
+    animation: animate 10s linear infinite;
 }
 
-.conteudo-site {
+@keyframes animate {
+    0%
+    {
+        background-position: 0;
+    }
+
+    100%
+    {
+        background-position: 1360px;
+    }
+}
+
+/* =========================================== SEÇÃO BIO =========================================== */
+
+.conteudoBio {
     padding: 100px 150px 100px 150px;
     font-weight: bold;
     line-height: 1.4;
     display: flex;
     align-items: center;
     justify-content: right;
-
 }
 
-.conteudo-site img {
+.conteudoBio img {
     padding-right: 100px;
+    transition: 500ms linear;
 }
 
-.conteudo-site-amarelo {
+.conteudoBio img:hover {
+    transform: scale(1.1);
+}
+
+/* =========================================== SEÇÃO SKILLS =========================================== */
+
+.conteudoSkills {
     background-color: #edda24;
     padding: 100px 150px 100px 150px;
 }
 
-.conteudo-site-amarelo, .text-amarelo {
+.conteudoSkills, .tituloSkills {
     text-align: center;
 }
 
-.conteudo-site-amarelo, .subtext-amarelo {
+.conteudoSkills, .subtituloSkills {
     text-align: center;
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
 
 .skills {
@@ -249,7 +245,7 @@ a {
     background: #29313e;
     border-radius: 7pt;
     position: relative;
-    animation: fillBars 5.5s 1;
+    animation: fillBars 7.5s 1;
     color: #f7efe6;
 }
 
@@ -285,7 +281,52 @@ a {
         width: 100%;
     }
 }
-.conteudo-site2 {
+
+/* =========================================== SEÇÃO PORTFOLIO =========================================== */
+
+
+.box-port {
+    position: relative;
+    width: 300px;
+    border: 1px solid #29313e;
+    float: left;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.box-port::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 350%;
+    background: #29313e;
+    animation: slidein 8s linear infinite;
+    margin-top: -33px;
+    margin-left: 49px;
+}
+
+@keyframes slidein {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.box-port::after {
+    content: '';
+    position: absolute;
+    inset: 1px;
+    background: #f7efe6;
+    border-radius: 5px
+}
+
+
+
+.conteudoBio {
     font-weight: bold;
     line-height: 1.4;
     display: flex;
@@ -294,7 +335,7 @@ a {
 
 }
 
-.conteudo-site2, .container3 {
+.conteudoBio, .container3 {
     text-align: center;
     
 
@@ -304,16 +345,9 @@ a {
     margin-left: 40px;
 }
 
-.box {
-    width: 300px;
-    border: 1px solid #ccc;
-    float: left;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 20px;
-}
-
 .thumbnail {
+    position: relative;
+    z-index: 10;
     overflow: hidden;
 }
 
@@ -332,61 +366,7 @@ a {
     font-weight: bold;
 }
 
-.img-site{
-    background-image: url(../img/bg2.png);
-    background-size: cover;
-    background-position: center top;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    color: #fff;
-    padding-top: 20px;
-    padding-bottom: 50px;
-   
-}
-
-.img-site h1 {
-    text-align: center;
-}
-
-.img-site p {
-    text-align: center;
-}
-
-.blog {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.box h3 {
-    font-size: 20px;
-    text-align: center;
-    font-family: 'Roboto Slab', serif;
-    color: #25f76e;
-  
-}
-
-.box  .btn-vermelho {
-    text-align: center;
-}
-
-.box p {
-    font-size: 14px;
-    font-family: 'Roboto Slab', serif;
-  
-}
-
-
-
-.footer-site {
-    background-color: #333;
-    color: #fff;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-
-/* formulario */
+/* =========================================== SEÇÃO FORMULARIO =========================================== */
 
 #container {
     width: 900px;
@@ -494,18 +474,111 @@ label textarea {
 }
 
 .msgErro {
-    border: 2px dashed red;
-    background-color: tomato;
+    border: 2px dashed #25f76e;
+    background-color: #29313e;
     height: 40px;
     text-align: center;
-    color: red;
+    color: #f7efe6;
     font-size: 28px;
     font-weight: bold;
     line-height: 40px;
     display: none;
 }
 
-/* FOOTER */
+/* =========================================== SEÇÃO BLOG =========================================== */
+
+.conteudoBlog{
+    background-image: url(../img/bg2.png);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 50px;
+   
+}
+
+.conteudoBlog h1 {
+    text-align: center;
+}
+
+.conteudoBlog p {
+    text-align: center;
+}
+
+.blog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    position: relative;
+    width: 300px;
+    border: 1px solid #ccc;
+    float: left;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.box::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 350%;
+    background: #f7efe6;
+    animation: slidein 8s linear infinite;
+    margin-top: -33px;
+    margin-left: 49px;
+}
+
+@keyframes slidein {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.box::after {
+    content: '';
+    position: absolute;
+    inset: 1px;
+    background: #29313e;
+    border-radius: 5px
+}
+
+.box h3 {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color: #25f76e;
+  
+}
+
+.box  .btnYellow {
+    text-align: center;
+}
+
+.box p {
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+  
+}
+
+/* =========================================== SEÇÃO RODAPÉ =========================================== */
+
+
+.footer-site {
+    background-color: #333;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 .footer-site {
     border-top: 5px solid #25f76e;
@@ -652,11 +725,13 @@ label textarea {
     line-height: 35px;
     margin-right: 3px;
     margin-bottom: 5px;
+    border-radius: 50px;
+    transition: 0.8s ease-in-out;
 }
 
 .footer-site .footer-icons a:hover {
     background-color: #25f76e;
-    border-radius: 50px;
+    
 }
 
 .footer-links a:hover {
@@ -664,3 +739,4 @@ label textarea {
 }
 
  
+/* =========================================== RESPONSIVIDADE4 =========================================== */
