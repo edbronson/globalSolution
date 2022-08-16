@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Russo+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap');
 
 *{
     font-family: 'Roboto Slab', serif;
+    font-family: 'Russo One', sans-serif;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -10,23 +11,31 @@ body {
     font-size: 16px;
     line-height: 1.4;
     color: #333;
-    background-color: #fff;
+    background-color: #f7efe6;
     width: 100%;
 }
 
 #header {
     width: 100%;
-    height: 115px;
+    height: 97px;
     background-color: #29313e;
     border-bottom: 4px solid #f7efe6;
     box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.8);
+    
+    
 }
 
 #header span {
     font-size: 80px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: -15px;
     padding-left: 30px;
     color: #f7efe6;
+}
+
+#header span:hover {
+
+    color: #edda24;
 }
 
 #navbar {
@@ -34,7 +43,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: right;
-    margin-top: -30px;
+    margin-top: -55px;
     
     
 }
@@ -44,33 +53,72 @@ body {
     padding: 0 40px;
     
     
+    
 }
 
 #navbar li a {
     text-decoration: none;
     font-size: 20px;
     color: #f7efe6;
-    margin-right: 30px;
+    margin-right: 30px; 
+    cursor: pointer;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 25px 25px 0 0;
+}
+
+#navbar li a:hover {
+    background-color: #edda24; 
+    color: #29313e;
+    padding-bottom: 13px;
     
-   
 }
 
 .header-site {
-    background-image: url(../img/capa.png);
+    position: relative;
+    background-image: url(../img/capa2.png);
     background-size: cover;
     background-position: center top;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    color: #fff;
+    color: #f7efe6;
     padding-top: 300px;
     padding-bottom: 500px;
+}
+
+
+
+.wave{
+    position: absolute;
+    width: 100%;
+    height: 143px;
+    top: 1080px;
+    bottom: 0;
+    left: 0;
+    background: url(../img/wave.png);
+    animation: animate 10s linear infinite;
+}
+
+@keyframes animate {
+    0%
+    {
+        background-position: 0;
+    }
+
+    100%
+    {
+        background-position: 1360px;
+    }
 }
 
 .container {
     padding-left: 15px;
     padding-right: 15px;
-    margin-right: auto;
-    margin-left: auto;
+}
+
+.container-left{
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .header-site h1, .img-site h1 {
@@ -102,7 +150,7 @@ p {
 
 .text-capa {
     text-align: left;
-    padding-left: 50px;
+    
 }
 
 .lead {
@@ -191,7 +239,7 @@ a {
 
 .skill__bar {
     height: 30px;
-    background: #FFFFFF;
+    background: #f7efe6;
     margin: 0 20px;
     border-radius: 10pt;
 }
@@ -248,12 +296,13 @@ a {
 
 .conteudo-site2, .container3 {
     text-align: center;
+    
 
 }
 
-
-
-
+.container3 {
+    margin-left: 40px;
+}
 
 .box {
     width: 300px;
@@ -310,13 +359,24 @@ a {
 }
 
 .box h3 {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color: #25f76e;
+  
+}
+
+.box  .btn-vermelho {
     text-align: center;
 }
 
-.img-site .container {
-    
-    width: 100%;
+.box p {
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+  
 }
+
+
 
 .footer-site {
     background-color: #333;
@@ -356,7 +416,7 @@ a {
 
 .caixas {
     float: right;
-    width: 150px;
+    width: 110px;
     cursor: pointer;
 }
 
@@ -402,8 +462,8 @@ label input[type=text], label textarea{
     border: 1px double #333;
     background-color: #f7efe6;
     padding: 10px 10px;
-    width: 400px;
-    color: #fff;
+    width: 592px;
+    color: #29313e;
     border-radius: 5px;
     font-size: 16px;
 }
@@ -444,3 +504,163 @@ label textarea {
     line-height: 40px;
     display: none;
 }
+
+/* FOOTER */
+
+.footer-site {
+    border-top: 5px solid #25f76e;
+    background-color: #29313e;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding: 50px 50px 60px 50px;
+    margin-top: 0;
+}
+
+.footer-site h3 {
+    color: #f7efe6;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+}
+
+
+.footer-site  .footer-left, .footer-site  .footer-center, .footer-site .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-site .footer-left {
+    width: 30%;
+}
+
+.footer-site h3 {
+    color: #edda24;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: -15px;
+    font-size: 80px;
+    margin: 0;
+}
+
+
+.footer-site .footer-links {
+    color: #f7efe6;
+    margin: 10px 0 12px;
+}
+
+.footer-copy {
+    color: #edda24;
+    font-size: 14px;
+    margin: 10px 0 12px;
+}
+
+.footer-site .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-site .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+.footer-site .footer-center {
+    width: 35%;
+}
+
+.footer-site .footer-center i {
+    background-color: #29313e;
+    color: #f7efe6;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-site .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-site .footer-center p {
+    display: inline-block;
+    color: #f7efe6;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-site .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-site  .footer-center p a {
+    color: #25f76e;
+    text-decoration: none;
+    ;
+}
+
+.footer-site .footer-right {
+    width: 30%;
+}
+
+.footer-site .footer-company-about {
+    line-height: 20px;
+    color: #f7efe6;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-site .footer-company-about {
+    font-size: 16px;
+}
+
+.footer-site .footer-company-about span {
+    display: block;
+    color: #edda24;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.footer-site .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-site .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #29313e;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #f7efe6;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-site .footer-icons a:hover {
+    background-color: #25f76e;
+    border-radius: 50px;
+}
+
+.footer-links a:hover {
+    color: #25f76e;
+}
+
+ 
